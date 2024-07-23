@@ -18,12 +18,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
 
-    div:nth-child(3) {
-      grid-row-start: 1;
-      grid-row-end: 3;
-      grid-column-start: 3;
-      grid-column-end: 4;
-      height: auto;
+    a:nth-child(3) {
+      div {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        height: auto;
+      }
     }
 
     .service {
@@ -144,12 +146,14 @@
       display: flex;
       flex-direction: column;
 
-      div:nth-child(3) {
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        height: 256px;
+      a:nth-child(3) { 
+        div {
+          grid-row-start: 1;
+          grid-row-end: 2;
+          grid-column-start: 3;
+          grid-column-end: 4;
+          height: 256px;
+        }
       }
 
       .service {
