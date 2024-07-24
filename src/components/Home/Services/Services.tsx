@@ -15,7 +15,7 @@ export default function Services() {
 				{language() === 'ES' ? 'Nuestros servicios' : ''}
 			</h2>
 			<div className={cl.service__container}>
-				<Link href={'catalog/plumbing'}>
+				<Link href={'/plumbing'}>
 					<div className={cl.service}>
 						<div className={[cl.service1, cl.service_img].join(' ')}></div>
 						<h2>
@@ -37,7 +37,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/ceilings'}>
+				<Link href={'/ceilings'}>
 					<div className={cl.service}>
 						<div className={[cl.service2, cl.service_img].join(' ')}></div>
 						<h2>
@@ -59,7 +59,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/buildHouses'}>
+				<Link href={'/buildHouses'}>
 					<div className={cl.service}>
 						<div className={[cl.service3, cl.service_img].join(' ')}></div>
 						<h2>
@@ -79,7 +79,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/electrician'}>
+				<Link href={'/electrician'}>
 					<div className={cl.service}>
 						<div className={[cl.service4, cl.service_img].join(' ')}></div>
 						<h2>
@@ -101,7 +101,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/renovationWork'}>
+				<Link href={'/renovationWork'}>
 					<div className={cl.service}>
 						<div className={[cl.service5, cl.service_img].join(' ')}></div>
 						<h2>
@@ -123,7 +123,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/facades'}>
+				<Link href={'/facades'}>
 					<div className={cl.service}>
 						<div className={[cl.service6, cl.service_img].join(' ')}></div>
 						<h2>
@@ -145,7 +145,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/labdscapingWorks'}>
+				<Link href={'/labdscapingWorks'}>
 					<div className={cl.service}>
 						<div className={[cl.service7, cl.service_img].join(' ')}></div>
 						<h2>
@@ -167,7 +167,7 @@ export default function Services() {
 						<Image src={array} alt='array' className={cl.array} />
 					</div>
 				</Link>
-				<Link href={'catalog/buildPools'}>
+				<Link href={'/buildPools'}>
 					<div className={cl.service}>
 						<div className={[cl.service8, cl.service_img].join(' ')}></div>
 						<h2>
